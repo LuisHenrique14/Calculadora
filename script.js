@@ -162,7 +162,7 @@ function resultado(){
     }
 }
 
-document.getElementById("myDiv").style.backgroundColor = "yellow";
+document.getElementById("myDiv").style.backgroundColor = "gray";
 document.getElementById("numeros").style.backgroundColor = "lightgray";
 document.getElementById("calc_body").style.width = "450px";
 document.getElementById("calc_body").style.backgroundColor = "gray";
