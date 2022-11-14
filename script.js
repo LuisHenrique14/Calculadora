@@ -1,3 +1,14 @@
+function zero(){
+    var p1 = document.getElementById('num1');
+    var p2 = document.getElementById('num2');
+    var h4 = document.getElementsByTagName("h4");
+    if (h4[0].innerText == ""){
+        p1.innerText = (p1.innerText) + 0; 
+    }else{
+        p2.innerText = (p2.innerText) + 0;
+    }
+}
+
 function um(){
     var p1 = document.getElementById('num1');
     var p2 = document.getElementById('num2');
