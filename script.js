@@ -145,6 +145,24 @@ function mudar_texto_divisao(){
     }    
 }
 
+function mudar_texto_x_quadrado(){
+    var h4 = document.getElementsByTagName("h4");
+    if (h4[0].innerText == ""){
+        h4[0].innerText = "x²";
+    }else{
+        h4[0].innerText = "";
+    }    
+}
+
+function mudar_texto_raiz_quadrada(){
+    var h4 = document.getElementsByTagName("h4");
+    if (h4[0].innerText == ""){
+        h4[0].innerText = "√";
+    }else{
+        h4[0].innerText = "";
+    }    
+}
+
 function resultado(){
     var p1 = document.getElementById('num1');
     var p2 = document.getElementById('num2');
@@ -157,6 +175,10 @@ function resultado(){
         p3.innerText = parseInt(p1.innerText) - parseInt(p2.innerText);
     }else if(h4[0].innerText == "x"){
         p3.innerText = parseInt(p1.innerText) * parseInt(p2.innerText);
+    }else if(h4[0].innerText == "x²"){
+        p3.innerText = parseInt(p1.innerText)**2
+    }else if(h4[0].innerText == "√"){
+        p3.innerText = parseInt(Math.sqrt(p1.innerText))
     }else{
         p3.innerText = parseInt(p1.innerText) / parseInt(p2.innerText);
     }
