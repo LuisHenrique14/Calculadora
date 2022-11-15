@@ -178,13 +178,13 @@ function resultado(){
     }else if(h4[0].innerText == "x²"){
         p3.innerText = parseInt(p1.innerText)**2
     }else if(h4[0].innerText == "√"){
-        p3.innerText = parseInt(Math.sqrt(p1.innerText))
+        p3.innerText = (Math.sqrt(p1.innerText))
     }else{
         p3.innerText = parseInt(p1.innerText) / parseInt(p2.innerText);
     }
 }
 
-document.getElementById("myDiv").style.backgroundColor = "gray";
+document.getElementById("myDiv").style.backgroundColor = "orange";
 document.getElementById("numeros").style.backgroundColor = "lightgray";
 document.getElementById("calc_body").style.width = "450px";
 document.getElementById("calc_body").style.backgroundColor = "gray";
