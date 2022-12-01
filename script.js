@@ -168,7 +168,6 @@ function resultado(){
     let p2 = document.getElementById('num2');
     let p3 = document.getElementById('resultado');
     let h4 = document.getElementsByTagName("h4");
-    //p3.innerText = 88888;
     if(h4[0].innerText == "+"){
         p3.innerText = parseInt(p1.innerText) + parseInt(p2.innerText);
     }else if(h4[0].innerText == "-"){
