@@ -1,7 +1,7 @@
 function zero(){
-    var p1 = document.getElementById('num1');
-    var p2 = document.getElementById('num2');
-    var h4 = document.getElementsByTagName("h4");
+    let p1 = document.getElementById('num1');
+    let p2 = document.getElementById('num2');
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         p1.innerText = (p1.innerText) + 0; 
     }else{
@@ -10,9 +10,9 @@ function zero(){
 }
 
 function um(){
-    var p1 = document.getElementById('num1');
-    var p2 = document.getElementById('num2');
-    var h4 = document.getElementsByTagName("h4");
+    let p1 = document.getElementById('num1');
+    let p2 = document.getElementById('num2');
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         p1.innerText = (p1.innerText) + 1; 
     }else{
@@ -20,9 +20,9 @@ function um(){
     }
 }
 function dois(){
-    var p1 = document.getElementById('num1');
-    var p2 = document.getElementById('num2');
-    var h4 = document.getElementsByTagName("h4");
+    let p1 = document.getElementById('num1');
+    let p2 = document.getElementById('num2');
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         p1.innerText = (p1.innerText) + 2; 
     }else{
@@ -30,9 +30,9 @@ function dois(){
     }
 }
 function tres(){
-    var p1 = document.getElementById('num1');
-    var p2 = document.getElementById('num2');
-    var h4 = document.getElementsByTagName("h4");
+    let p1 = document.getElementById('num1');
+    let p2 = document.getElementById('num2');
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         p1.innerText = (p1.innerText) + 3; 
     }else{
@@ -40,9 +40,9 @@ function tres(){
     }
 }
 function quatro(){
-    var p1 = document.getElementById('num1');
-    var p2 = document.getElementById('num2');
-    var h4 = document.getElementsByTagName("h4");
+    let p1 = document.getElementById('num1');
+    let p2 = document.getElementById('num2');
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         p1.innerText = (p1.innerText) + 4; 
     }else{
@@ -50,9 +50,9 @@ function quatro(){
     }
 }
 function cinco(){
-    var p1 = document.getElementById('num1');
-    var p2 = document.getElementById('num2');
-    var h4 = document.getElementsByTagName("h4");
+    let p1 = document.getElementById('num1');
+    let p2 = document.getElementById('num2');
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         p1.innerText = (p1.innerText) + 5; 
     }else{
@@ -60,9 +60,9 @@ function cinco(){
     }
 }
 function seis(){
-    var p1 = document.getElementById('num1');
-    var p2 = document.getElementById('num2');
-    var h4 = document.getElementsByTagName("h4");
+    let p1 = document.getElementById('num1');
+    let p2 = document.getElementById('num2');
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         p1.innerText = (p1.innerText) + 6; 
     }else{
@@ -70,9 +70,9 @@ function seis(){
     }
 }
 function sete(){
-    var p1 = document.getElementById('num1');
-    var p2 = document.getElementById('num2');
-    var h4 = document.getElementsByTagName("h4");
+    let p1 = document.getElementById('num1');
+    let p2 = document.getElementById('num2');
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         p1.innerText = (p1.innerText) + 7; 
     }else{
@@ -80,9 +80,9 @@ function sete(){
     }
 }
 function oito(){
-    var p1 = document.getElementById('num1');
-    var p2 = document.getElementById('num2');
-    var h4 = document.getElementsByTagName("h4");
+    let p1 = document.getElementById('num1');
+    let p2 = document.getElementById('num2');
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         p1.innerText = (p1.innerText) + 8; 
     }else{
@@ -90,9 +90,9 @@ function oito(){
     }
 }
 function nove(){
-    var p1 = document.getElementById('num1');
-    var p2 = document.getElementById('num2') 
-    var h4 = document.getElementsByTagName("h4");
+    let p1 = document.getElementById('num1');
+    let p2 = document.getElementById('num2') 
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         p1.innerText = (p1.innerText) + 9; 
     }else{
@@ -101,16 +101,16 @@ function nove(){
 
 }
 function zerar(){
-    var p1 = document.getElementById('num1');
-    var p2 = document.getElementById('num2');
-    var p3 = document.getElementById('resultado');
+    let p1 = document.getElementById('num1');
+    let p2 = document.getElementById('num2');
+    let p3 = document.getElementById('resultado');
     p1.innerText = parseInt(p1.innerText) - (p1.innerText);
     p2.innerText = parseInt(p2.innerText) - (p2.innerText);
     p3.innerText = parseInt(p3.innerText) - (p3.innerText);
 }
 
 function mudar_texto_mais(){
-    var h4 = document.getElementsByTagName("h4");
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         h4[0].innerText = "+";
     }else{
@@ -119,7 +119,7 @@ function mudar_texto_mais(){
 }
 
 function mudar_texto_menos(){
-    var h4 = document.getElementsByTagName("h4");
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         h4[0].innerText = "-";
     }else{
@@ -128,7 +128,7 @@ function mudar_texto_menos(){
 }
 
 function mudar_texto_vezes(){
-    var h4 = document.getElementsByTagName("h4");
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         h4[0].innerText = "x";
     }else{
@@ -137,7 +137,7 @@ function mudar_texto_vezes(){
 }
 
 function mudar_texto_divisao(){
-    var h4 = document.getElementsByTagName("h4");
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         h4[0].innerText = "/";
     }else{
@@ -146,7 +146,7 @@ function mudar_texto_divisao(){
 }
 
 function mudar_texto_x_quadrado(){
-    var h4 = document.getElementsByTagName("h4");
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         h4[0].innerText = "x²";
     }else{
@@ -155,7 +155,7 @@ function mudar_texto_x_quadrado(){
 }
 
 function mudar_texto_raiz_quadrada(){
-    var h4 = document.getElementsByTagName("h4");
+    let h4 = document.getElementsByTagName("h4");
     if (h4[0].innerText == ""){
         h4[0].innerText = "√";
     }else{
@@ -164,10 +164,10 @@ function mudar_texto_raiz_quadrada(){
 }
 
 function resultado(){
-    var p1 = document.getElementById('num1');
-    var p2 = document.getElementById('num2');
-    var p3 = document.getElementById('resultado');
-    var h4 = document.getElementsByTagName("h4");
+    let p1 = document.getElementById('num1');
+    let p2 = document.getElementById('num2');
+    let p3 = document.getElementById('resultado');
+    let h4 = document.getElementsByTagName("h4");
     //p3.innerText = 88888;
     if(h4[0].innerText == "+"){
         p3.innerText = parseInt(p1.innerText) + parseInt(p2.innerText);
