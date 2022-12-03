@@ -182,7 +182,7 @@ function resultado(){
         p3.innerText = parseInt(p1.innerText) / parseInt(p2.innerText);
     }
 }
-
+//bootstrap
 document.getElementById("myDiv").style.backgroundColor = "orange";
 document.getElementById("numeros").style.backgroundColor = "lightgray";
 document.getElementById("calc_body").style.width = "450px";
